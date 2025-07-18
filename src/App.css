@@ -12,6 +12,7 @@ body {
   align-items: center;
   padding-top: 0%;
   padding-left: 0%;
+  opacity: 0.6;
 
   gap: 30px;
   font-style: normal;
@@ -27,7 +28,14 @@ body {
 
 .header a {
   color: #cbcbcb;
+  padding: 2px;
+  padding-left: 5px;
+  padding-right: 5px;
+  border-radius: 10px;
+  opacity: 0.7;
+  
   text-decoration: none;
+  background-color: rgb(55, 55, 55);
 
 
   transition: background 0.2s, color 0.2s;
@@ -47,8 +55,13 @@ body {
 }
 
 .container {
+  justify-content: center;
   position: relative;
-  width: max-content;
+  margin: 0;
+  padding: 0;
+  width: 60%;
+
+ 
   margin: 50px auto;
   height: 220px; /* or height roughly equal to .background-text font-size + some padding */
   /* font-family and color kept as is */
@@ -58,8 +71,10 @@ body {
 
 
 .background-text {
+  justify-content: center;
   position: absolute;
   top: 10px; /* adjust as needed */
+
   left: 0;
   font-size: 300px;
   color: rgba(68, 68, 68, 0.15); /* use lighter color and opacity for subtle background effect */
@@ -71,6 +86,7 @@ body {
 
 
 .foreground-text {
+  justify-content: center;
   position: relative;
   z-index: 2;
   font-size: 148px;
@@ -81,8 +97,39 @@ body {
   align-items: center;
   justify-content: center;
   white-space: nowrap;
-  padding-top: 10%;
+
 }
+
+.second-page {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  width: 60%;
+  margin-top: 23%;
+  margin-left: 33%;
+
+}
+.moon {
+  width: 800px;
+  height: 450px;
+  position: absolute;
+  top: 16%;
+  bottom: 0%; /* adjust as needed */
+   /* adjust as needed */
+}
+.moon cha{
+  width: 30px;
+}
+
+
+.second-page p{
+  text-shadow: #ff0000 77px 77px 74px ;
+  color: #fff;
+  opacity: 0.4;
+}
+
+
 
 
 
